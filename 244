@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>244th Defense Corps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b22222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background-color: #f8f8f8;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: #b22222;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #b22222;
+        }
+
+        .content-block {
+            margin-bottom: 40px;
+        }
+
+        .database-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .database-item {
+            background-color: #f2f2f2;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #b22222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>244th Defense Corps</h1>
+        <p>Specializing in extreme terrain and unconventional warfare.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#databases">Databases</a>
+        <a href="#info">Info</a>
+        <a href="#tools">Tools</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Databases Section -->
+    <section id="databases" class="content-block">
+        <h2>244th Defense Corps Databases</h2>
+        <div class="database-container">
+            <div class="database-item">
+                <h3>Regiments</h3>
+                <p>The 244th Defense Corps is divided into multiple regiments, each with specialized functions. These include:</p>
+                <ul>
+                    <li>Hydra’s Paratrooper Regiment</li>
+                    <li>Fang’s Extreme Heat Regiment</li>
+                    <li>Cog’s Armor Regiment</li>
+                    <li>Locust’s BARC Speeder Regiment</li>
+                    <li>Rally’s ARF Regiment</li>
+                </ul>
+            </div>
+
+            <div class="database-item">
+                <h3>Phoenix Squadron</h3>
+                <p>Phoenix Squadron consists of elite clone commandos who excel in sabotage and covert operations. Members include:</p>
+                <ul>
+                    <li>Sergeant Impulse (Squad Leader)</li>
+                    <li>Forge (Explosives Expert)</li>
+                    <li>Larker (Logistics)</li>
+                    <li>Siren (Medic & Sniper)</li>
+                </ul>
+            </div>
+
+            <div class="database-item">
+                <h3>Obsidian Company</h3>
+                <p>Led by Captain Obelisk, Obsidian Company specializes in unconventional warfare. They wear black and red armor, and Captain Obelisk wields a DC-17m and DC-17 pistols.</p>
+            </div>
+
+            <div class="database-item">
+                <h3>Commanders and Key Personnel</h3>
+                <p>The 244th boasts a range of notable commanders, including:</p>
+                <ul>
+                    <li>Commander Hex (Marshall Commander, strategist, leader of *The Defiant*)</li>
+                    <li>Commander Hydra (Senior Commander, expert sniper, leads paratroopers)</li>
+                    <li>Commander Cog (Armor specialist)</li>
+                    <li>Commander Kyber (Second-in-command to Kyla Fey, leads *The Steadfast*)</li>
+                    <li>Commander Drift (Strategist, commands *The Eviscerator*)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="content-block">
+        <h2>244th Defense Corps Information</h2>
+        <p>The 244th Defense Corps is commanded by Jedi Master Larek Eldar, a High Council member, specializing in volcanic environments and extreme terrain operations. The corps works closely with his apprentice, Kyla Fey, and a variety of commanders across its regiments.</p>
+        <p>Key figures include:</p>
+        <ul>
+            <li>Jedi Master Larek Eldar (cyan double-bladed lightsaber, strong in the Light Side of the Force)</li>
+            <li>Kyla Fey (dual yellow lightsabers, Electric Judgment)</li>
+            <li>Marshall Commander Hex (leader of Autumn Squad)</li>
+        </ul>
+        <p>The 244th operates a range of starships, including Venator-class ships such as *The Defiant*, *The Resolute*, and *The Obliterator*.</p>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="content-block">
+        <h2>244th Defense Corps Tools</h2>
+        <p>The 244th utilizes a variety of tools and technology to excel in combat, including:</p>
+        <ul>
+            <li>Venator-class, Acclamator, Consular, and Arquitens-class ships</li>
+            <li>BARC speeders and AT-RT walkers</li>
+            <li>Specialized weaponry like DC-17m blaster rifles, grenade launchers, and Z-6 rotary cannons</li>
+        </ul>
+        <p>The 244th's equipment is tailored for different environments, from volcanic terrains to high-altitude operations.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-block">
+        <h2>Contact</h2>
+        <p>If you have any questions or wish to learn more about the 244th Defense Corps, feel free to contact us at <a href="mailto:info@244thcorps.com">info@244thcorps.com</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 244th Defense Corps. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
